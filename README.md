@@ -24,4 +24,4 @@ Projeto desenvolvido durante a semana DevSuperior3
 - instale as bibliotecas maven do arquivo pom.xml
 - execute o código em sua máquina
 - utilize o Insominia ou Postman para fazer as requisições
-- importe as requisições do arquivo requisicoes.json
+- importe as requisições do arquivo <b>requisicoes.json</b>
