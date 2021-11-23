@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "7a9ff841-da44-4bc1-ac10-5551911c3e37",
+		"name": "SDS3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Seller",
+			"item": [
+				{
+					"name": "Listar Vendedores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/sellers",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sellers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sale",
+			"item": [
+				{
+					"name": "Listar Vendas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/sales",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sales"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Vendas paginadas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/sales?page=2&size=10&sort=date,desc",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sales"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								},
+								{
+									"key": "sort",
+									"value": "date,desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Vendas por vendedor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/sales/amount-by-seller",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sales",
+								"amount-by-seller"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Vendas por taxa sucesso",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/sales/success-by-seller",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"sales",
+								"success-by-seller"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
