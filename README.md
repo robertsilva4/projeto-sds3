@@ -15,7 +15,7 @@
 # Utilização do codigo fonte (Frontend)
 - faça um clone do repositório em sua pasta de workspaces
 - entre com o terminal na pasta frontend
-- execute o comando: *Yarn start* para fazer o download das bibliotecas utilizadas.
+- execute o comando: *Yarn add* para fazer o download das bibliotecas utilizadas.
 - feito isso execute o comando: *Yarn run* para rodar a aplicação
 
 # Utilização do código fonte (backend)
