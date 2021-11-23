@@ -1,7 +1,7 @@
 # projeto-sds3
 Projeto desenvolvido durante a semana DevSuperior3
 ## Projeto Desenvolvido durante a semana DevSuperior Sds-3 
-<img src="https://github.com/robertsilva4/projeto-sds3/blob/master/projetosds3.png"/>
+<img src="https://github.com/robertsilva4/projeto-sds3/blob/master/projetosds3.png"></img>
 <a href="https://dsvends-robertsilva.netlify.app"><button>Link Do Projeto</button></a>
 # Tecnologias Utilizadas
 - ReactJS
